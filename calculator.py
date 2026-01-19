@@ -7,10 +7,12 @@ def subtract(a, b):
 def multiply(a, b):
     return a * b
 
-def divide(a, b):"
+def divide(a, b):
     if b == 0:
         return "Ошибка: деление на ноль"
     return a / b
-
+    
 print(add(5, 8))
 print(subtract(10, 15))
+print(multiply(5, 5))
+print(divide(100, 10))
